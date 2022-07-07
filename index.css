@@ -1,0 +1,25 @@
+body{
+    background-color: aquamarine;
+    
+}
+.hide{
+    display: none;
+}
+.popup{
+    height: 90%;
+    width: 90%;
+    position: fixed;
+  
+    top: 5%;
+    left: 5%;
+    right: 5%;
+    bottom: 5%;
+     background-color: white; 
+}
+.popup > button{
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    float: right;
+
+}
